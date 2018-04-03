@@ -65,6 +65,7 @@ function makeDessert() {
   //based on which link was clicked
   if (this.firstChild.data.search("Cake") > 0) {
     console.log("Cake!")
+    makeCake()
   } else {
     console.log(this)
     makePie()
