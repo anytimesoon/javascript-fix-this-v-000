@@ -67,7 +67,6 @@ function makeDessert() {
     console.log("Cake!")
     makeCake()
   } else {
-    console.log(this)
     makePie()
   }
 }
