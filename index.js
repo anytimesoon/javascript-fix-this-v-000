@@ -29,6 +29,7 @@ function makeCake() {
 }
 
 function makePie() {
+  console.log(this)
   var updatePieStatus;
   console.log(updatePieStatus)
   mix(updatePieStatus)
