@@ -62,6 +62,12 @@ function cool(updateFunction) {
 function makeDessert() {
   //add code here to decide which make... function to call
   //based on which link was clicked
+  if (this.firstChild.data.search("Cake") > 0) {
+    console.log("Cake!")
+  } else {
+    console.log(pie)
+    makePie()
+  }
 }
 
 function serve(message, customer) {
