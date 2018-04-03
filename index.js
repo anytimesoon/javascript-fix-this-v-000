@@ -66,7 +66,7 @@ function makeDessert() {
   if (this.firstChild.data.search("Cake") > 0) {
     console.log("Cake!")
   } else {
-    console.log(pie)
+    console.log(this)
     makePie()
   }
 }
